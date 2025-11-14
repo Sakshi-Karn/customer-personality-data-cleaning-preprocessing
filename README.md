@@ -3,16 +3,32 @@
 This task involves cleaning the Customer Personality Analysis dataset by handling missing values, removing duplicates, standardizing text fields, fixing data types, and exporting a cleaned version of the dataset.
 
 🧹 Steps Performed
-1. Data Loading
+1.Loaded data using Pandas with tab (\t) delimiter.
 
-Loaded the dataset using pandas.read_csv()
+2.Checked missing values and filled missing Income using median.
 
-Used the correct delimiter (sep='\t') because the file was tab-separated.
+3.Removed duplicate rows from the dataset.
 
-2. Missing Value Handling
+4.Converted Dt_Customer into proper datetime format using dayfirst=True.
 
-Identified missing values using df.isnull().sum()
+5.Renamed all columns to lowercase.
 
-Filled missing values in the Income column using the median.
+6.Standardized text values in education and marital_status columns.
 
-Dropped rows with missing values in the date column (Dt_Customer).
+7.Converted numerical columns to correct data types using pd.to_numeric.
+
+8.Exported the cleaned dataset as cleaned_marketing_campaign.csv.
+
+📁 Files in This Repository
+Task1_Data_Cleaning.ipynb — Google Colab notebook
+cleaned_marketing_campaign.csv — cleaned dataset
+Original dataset
+
+🧠 Tools Used
+
+Python
+
+Pandas
+
+Google Colab
+
