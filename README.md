@@ -22,11 +22,11 @@ This task involves cleaning the Customer Personality Analysis dataset by handlin
 
 📁 Files in This Repository
 
-Task1_Data_Cleaning.ipynb — Google Colab notebook
+Task_1_Data_Cleaning_and_Preprocessing.ipynb — Google Colab notebook
 
 cleaned_marketing_campaign.csv — cleaned dataset
 
-Original dataset
+Original dataset(marketing_campaign.csv)
 
 🧠 Tools Used
 
